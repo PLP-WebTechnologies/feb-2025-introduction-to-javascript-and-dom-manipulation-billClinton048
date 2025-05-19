@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom manipulation</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to javascript manipulation</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <p id="text">This will change</p>
+        <button onclick="changeText()">Change Text</button>
+        <button onclick="changeStyle()">Change Style</button>
+      </section>
+
+      <section>
+        <button onclick="addElement()">Add Element</button>
+        <button onclick="removeElement()">Remove Element</button>
+        <div id="element-container"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
